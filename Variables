@@ -1,0 +1,32 @@
+x = 500
+y = 300
+# Using a temporary variable
+temp = x  # Store x's value in temp
+x = y     # Assign y's value to x
+y = temp  # Assign temp's value to y
+print(x, y)
+
+
+x = 100
+y = 200
+# Pathonic swapping
+x, y = y, x
+print(x, y)
+
+
+#Assigning multiple variables
+a, b, c = 100, "Geeks", 10.5
+print(a)  # Output: 100
+print(b)  # Output: Geeks
+print(c)  # Output: 10.5
+
+x = 100
+y = "Geeks"
+x, y = x - 5, y + "4"
+print(x)  # Output: 95
+print(y)  # Output: Geeks4
+
+
+
+
+
